@@ -6,7 +6,7 @@ This was a group project in the Data Science Analytics class I took during Fall 
 
 The key takeaways from this project are:
 <ol> 
-  <li> 1) To increase chances of success: </li>
+  <li> To increase chances of success: </li>
   <ul>
     <li> Avoid going solo even if you are a confident and experienced climber. (Although most likely, those kind of climbers do it for challenge) </li>
     <li> Use oxygen to increase the odds of success </li>
@@ -14,7 +14,7 @@ The key takeaways from this project are:
     <li> Average age matters. "Younger" expeditions have higher chance of succeeding. (Howeverm the coefficint there is low) </li>
   </ul>
 
-<li> 2) To avoid or decrease number of accidents </li>
+<li> To avoid or decrease number of accidents </li>
   <ul>
     <li> Go on the expedition during spring/summer although it may decrease your likelihood of successful climb. most likely due to monsoon season. </li>
     <li> Avoid expedition with longer duration if you can. Based on our model, the expeditions without accident take 30 days on average, while those with accidents tend to be longer than that. </li>
@@ -23,26 +23,28 @@ The key takeaways from this project are:
 
 ## INTRODUCTION:
 For our analysis, we extracted data from Elizabeth Hawley´s expedition archives. This database is publicly available and is frequently updated with the most recent information.
-
-<li> Peaks records: 465+ </li>
-<li> Expedition records: 10,300+ </li>
-<li> Member records: 76,300+ </li>
-<li> Literature records: 14,500+ </li>
+<ul>
+  <li> Peaks records: 465+ </li>
+  <li> Expedition records: 10,300+ </li>
+  <li> Member records: 76,300+ </li>
+  <li> Literature records: 14,500+ </li>
+</ul>
 
 As the dataset contained a wide variety of variables, we extracted only those that we needed for this analysis:
-<li> Success - Whether the expedition was successful </li>
-<li> Season - 0 = Spring/Summer, 1 = Winter/Fall </li>
-<li> Totmembers - Total members of the expedition excluding personnel such as sherpas, etc. </li>
-<li> Solo - Whether there was a solo mountaineer: If Totmembers > 1 then it is 0 otherwise 1 </li>
-<li> O2used - Whether the oxygen was used: 1 TRUE, 0 FALSE </li>
-<li> Nohire - Whether there was a hired personnel: 1 TRUE (Nobody hired), 0 FALSE </li>
-<li> Average_age - Average age of the people on the expedition. (Sum of expedition member ages / totmembers) </li>
-<li> Accident_syn - Accident occurence (1 = ACCIDENT, 0 = NO ACCIDENT) </li>
-<li> Smtdays - Number of days to summit </li>
-<li> Personnelratio - Hired personnel ratio (tothired/totmembers) </li>
-<li> Host - Host country (1 = Nepal, 2 = China) </li>
-<li> CardPoint - Cardinal Point (Qualitative value created from route1 column taking values N, S, E, W, SE, SW, NE </li>
-
+<ul>
+  <li> Success - Whether the expedition was successful </li>
+  <li> Season - 0 = Spring/Summer, 1 = Winter/Fall </li>
+  <li> Totmembers - Total members of the expedition excluding personnel such as sherpas, etc. </li>
+  <li> Solo - Whether there was a solo mountaineer: If Totmembers > 1 then it is 0 otherwise 1 </li>
+  <li> O2used - Whether the oxygen was used: 1 TRUE, 0 FALSE </li>
+  <li> Nohire - Whether there was a hired personnel: 1 TRUE (Nobody hired), 0 FALSE </li>
+  <li> Average_age - Average age of the people on the expedition. (Sum of expedition member ages / totmembers) </li>
+  <li> Accident_syn - Accident occurence (1 = ACCIDENT, 0 = NO ACCIDENT) </li>
+  <li> Smtdays - Number of days to summit </li>
+  <li> Personnelratio - Hired personnel ratio (tothired/totmembers) </li>
+  <li> Host - Host country (1 = Nepal, 2 = China) </li>
+  <li> CardPoint - Cardinal Point (Qualitative value created from route1 column taking values N, S, E, W, SE, SW, NE </li>
+</ul>
 
 QUESTIONS INVESTIGATED:
 My team used data analysis proccess to explore a data set answer questions we were interested on:
