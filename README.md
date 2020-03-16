@@ -46,14 +46,14 @@ As the dataset contained a wide variety of variables, we extracted only those th
   <li> CardPoint - Cardinal Point (Qualitative value created from route1 column taking values N, S, E, W, SE, SW, NE </li>
 </ul>
 
-QUESTIONS INVESTIGATED:
-My team used data analysis proccess to explore a data set answer questions we were interested on:
+## QUESTIONS INVESTIGATED:
+<p> My team used data analysis proccess to explore a data set answer questions we were interested on: </p>
 
-<ol>
+<ul>
   <li> Q1: Which factors contribute to the success of an expedition to Mount Everest? </li>
   <li> Q2: What conditions impact the likelihood of accidents to occur? </li>
   <li> Q3: What is the seasonal impact on the traffic of different cardinal points? </li>
-</ol>
+</ul>
 
 ## PROCESS OUTLINE:
 We spend a portion of our time finding a suitable database before we formed these questions. For our analysis, we extracted data from Elizabeth Hawley´s expedition archives. This database is publicly available and is frequently updated with the most recent information.
