@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jaroslav-Tran/Himalayas_Analysis/master)
+
 # Himalayas_Analysis
 Analysis of mountain climbers activity in Himalayas (Focused on Mt. Everest)
 
